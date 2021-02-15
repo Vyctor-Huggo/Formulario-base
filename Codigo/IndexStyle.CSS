@@ -1,0 +1,34 @@
+*
+{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+fieldset
+{
+    border-color: #E6E8F0;
+}
+
+#fieldset1
+{
+    border-width: 10px;
+}
+
+#fieldset2
+{
+    border-width: 5px;
+}
+
+input, button, textarea, select
+{
+    border-color: #D9E9EF;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+body
+{
+    background-color: #BBE0F6;
+}

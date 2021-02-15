@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="IndexStyle.CSS">
+    <script src="IndexScript.js"></script>
+    <title>Formulario</title>
+<body>
+    <div>
+        <h1 id="title">Title</h1>
+        <p id="Subtitle"> Subtitle </p>
+    </div>
+    <br>
+    <form>
+        <fieldset id= "fieldset1">
+            <fieldset id= "fieldset2">
+                <div>
+                    <label > Text In HTML </label>
+                    <input type="text" name="nome" id="nome" value="">
+                </div>
+                <br>
+                <div>
+                    <label> radio In HTML </label>
+                    <label>
+                        <input type="radio" name="radio" value="Option1">Option 1
+                    </label>
+                    <label>
+                        <input type="radio" name="radio" value="Option2">Option 2
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label> Select In HTML </label>
+                            <select id="select">
+                                <option selected disabled value=""> empty </option>
+                                <option> Select1 </option>
+                                <option> Select2 </option>
+                                <option> Select3 </option>
+                            </select>
+                </div>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset id="fieldset2">
+                <div>
+                    <label> Checkbox In HTML </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="check" value="Check1"> Check1
+                    </label>
+                    <label>
+                        <input type="checkbox" name="check" value="Check2"> Check2
+                    </label>
+                    <label>
+                        <input type="checkbox" name="check" value="Check3"> Check3
+                    </label>
+                    <label>
+                        <input type="checkbox" name="check" value="Check4"> Check4
+                    </label>
+                    <label>
+                        <input type="checkbox" name="check" value="Check5"> Check5
+                    </label>
+                </div>
+            </fieldset>
+            <br>
+            <br>
+            <input type="submit" onclick="cap()" value="escreva algo">
+        </fieldset>
+    </form>
+</body>
+</head>
+</html>
